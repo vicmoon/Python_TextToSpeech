@@ -18,7 +18,7 @@ text_input = texttospeech.SynthesisInput(text=text_content)
 
 voice = texttospeech.VoiceSelectionParams(
     language_code="en-US", 
-    ssml_gender=texttospeech.SsmlVoiceGender.FEMALE
+    ssml_gender=texttospeech.SsmlVoiceGender.MALE
 )
 
 audio_config = texttospeech.AudioConfig(
